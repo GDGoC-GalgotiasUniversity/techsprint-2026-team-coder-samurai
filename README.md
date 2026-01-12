@@ -1,7 +1,8 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Y9iW-vs6)
-# 🚀 [Project Name]
-### Team: [Your Team Name]
-> *A one-sentence tagline or slogan for your project goes here.*
+
+# 🚀 Prescription Analyzer AI  
+### Team: Code Samurai  
+> **AI-powered system to decode handwritten medical prescriptions and convert them into structured, understandable insights for safer healthcare.**
 
 ---
 
@@ -9,22 +10,23 @@
 
 | Name | Role | Email |
 | :--- | :--- | :--- |
-| **[Name]** | Team Lead | [Email] |
-| **[Name]** | Member | [Email] |
-| **[Name]** | Member | [Email] |
+| **Sneha Das** | Team Lead | sn2005eha26das@gmail.com |
 
 ---
 
 ## 🎯 Problem Statement
-*Describe the specific pain point or challenge here (Keep it under 3 lines).*
-* **Context:** [Why is this a problem?]
-* **Impact:** [Who suffers from this?]
+Medical prescriptions are often handwritten, unstructured, and difficult for patients to understand.
+- **Context:** Poor handwriting and medical jargon cause misinterpretation and medication errors.
+- **Impact:** Patients, pharmacists, and caregivers face safety risks, delays, and confusion.
+
+---
 
 ## 💡 Solution
-*Describe your approach and how it solves the problem.*
-1.  **Key Point 1:** [Description]
-2.  **Key Point 2:** [Description]
-3.  **Key Point 3:** [Description]
+Prescription Analyzer AI leverages **computer vision and NLP** to automatically extract, analyze, and explain prescription data.
+
+1. **AI-Based Text Extraction:** Converts handwritten or scanned prescriptions into machine-readable text.
+2. **Medical Entity Analysis:** Identifies medicines, dosage, frequency, and duration using NLP.
+3. **Patient-Friendly Output:** Translates complex medical instructions into clear, readable insights.
 
 ---
 
@@ -32,28 +34,39 @@
 
 | Category | Technologies Used |
 | :--- | :--- |
-| **Frontend** | React, Tailwind, Vite |
-| **Backend** | Node.js, Express, Python |
-| **Database** | MongoDB, PostgreSQL |
-| **Tools/APIs** | Docker, OpenAI API, AWS |
+| **Frontend** | React, Tailwind CSS, Vite, **Google Antigravity (experimental UI motion & layout effects)** |
+| **Backend** | **Go (Golang)**, Node.js, Python (ML/NLP services) |
+| **AI / ML** | OCR (Tesseract), NLP Pipelines, Transformer-based Models |
+| **Database** | MongoDB |
+| **APIs & Tools** | OpenAI API, Docker, GitHub Actions |
+| **Cloud & Infra** | Google Cloud (Compute & Storage) |
+
+> **Note:** Go is used for high-performance backend services, while **Google Antigravity** enhances frontend interactivity and motion-driven UI behavior.
 
 ---
 
 ## 📊 MVP Features
-- [x] **Feature 1:** [Brief description]
-- [x] **Feature 2:** [Brief description]
-- [ ] **Feature 3:** [Brief description - In Progress]
+- [x] **Prescription Upload:** Supports image and PDF-based prescriptions  
+- [x] **OCR + NLP Analysis:** Extracts medicines, dosage, and instructions  
+- [x] **Structured Medical Output:** Displays parsed data in a clean, readable format  
+- [ ] **Drug Interaction Warnings:** Planned enhancement  
 
 ---
 
 ## 🔗 Links & Demo
-- **🌐 Live Site:** [https://your-app.vercel.app](https://your-app.vercel.app)
-- **📂 GitHub Repo:** [Link to Repo]
-- **📹 Video Demo:** [Link to Video]
+- **📂 GitHub Repo:** https://github.com/your-username/prescription-analyzer-ai
 
 > **Testing Credentials**
-> * **User:** `user@demo.com`
-> * **Pass:** `hack2026`
+> - **User:** `user@demo.com`  
+> - **Pass:** `hack2026`
+
+---
+
+## 🧠 Future Scope
+- Multi-language prescription support  
+- Drug interaction and allergy detection  
+- Integration with hospital management systems  
+- Mobile application support  
 
 ---
 
