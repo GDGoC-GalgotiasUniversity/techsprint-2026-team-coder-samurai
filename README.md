@@ -37,7 +37,7 @@ Prescription Analyzer AI leverages **computer vision and NLP** to automatically 
 | **Frontend** | React, Tailwind CSS, Vite, **Google Antigravity (experimental UI motion & layout effects)** |
 | **Backend** | **Go (Golang)**, Node.js, Python (ML/NLP services) |
 | **AI / ML** | OCR (Tesseract), NLP Pipelines, Transformer-based Models |
-| **Database** | MongoDB |
+| **Database** | Firebase |
 | **APIs & Tools** | OpenAI API, Docker, GitHub Actions |
 | **Cloud & Infra** | Google Cloud (Compute & Storage) |
 
